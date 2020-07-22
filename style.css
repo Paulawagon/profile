@@ -1,0 +1,62 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+body {
+  font-family: 'Open Sans', system-ui;
+  font-size: x-large;
+  font-weight: 250; /* if you want the light version */
+  color:rgba(242, 242, 247, 0.897);
+  background-image: url("images/air-bubbles.jpg");
+}
+
+h2 {color:rgb(21, 43, 68, 0.794)}
+a {color:rgba(21, 43, 68, 0.794)}
+a:hover {
+  text-decoration: underline;
+  color:rgba(59, 9, 59, 0.794);
+}
+
+button {background-color: rgba(137, 43, 226, 0);}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.marged-buttom {
+    margin-bottom: 0em;
+}
+
+.marged-top {
+    margin-top: 0em;
+}
+
+.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+.rounded {
+    border-radius: 50%;
+}
+.resize {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.opacity {
+    color:rgba(242, 242, 247, 0.897);
+}
